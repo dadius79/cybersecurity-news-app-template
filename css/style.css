@@ -1,0 +1,87 @@
+.input-grey .input-group-lg>.input-group-prepend>.input-group-text {
+	border-radius: .125rem;
+  }
+
+  .input-grey .form-control {
+	border-radius: .125rem;
+  }
+
+  .input-grey .form-control.form-control-lg {
+	font-size: 1rem;
+  }
+  
+  .form-control:focus {
+	background-color: rgba(255,255,255,.3);
+  }
+
+  .input-grey input::placeholder {
+	color: #fff;
+  }
+
+  .input-grey .input-group-lg>.form-control:not(textarea) {
+	height: calc(1.5em + 1rem + 6px);
+  }
+
+  .social .fab {
+	width: 30px;
+	height: 30px;
+  }
+  
+/*Carouse*/
+
+.carousel-thumbnails .carousel-indicators img {
+    max-width: 100px;
+    height: 50px;
+    overflow: hidden;
+    display: block;
+}
+
+
+.carousel-thumbnails .carousel-indicators li {
+    height: auto;
+    max-width: 100px;
+    width: 100px;
+    border: none;
+	box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+	
+	&.active {
+		border-bottom: 4px solid #fff;
+	}
+}
+
+/*Responsive Displays*/
+@media (min-width: 992px){
+	.carousel-indicators {
+		bottom: -70px;
+	}
+
+	.carousel-caption {
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px){
+	.carousel-indicators {
+		bottom: -80px;
+	}
+
+	.carousel-caption {
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 499px){
+	.carousel-indicators {
+		bottom: -65px;
+	}
+
+	.carousel-caption {
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+}

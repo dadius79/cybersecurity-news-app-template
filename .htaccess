@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^category/	page-category.php [NC,L]
+RewriteRule ^gallery/	page-gallery.php [NC,L]
+RewriteRule ^photos/ 	page-gallery-display.php [NC,L]
+RewriteRule	^store/ 	page-store.php [NC,L]
+RewriteRule ^article/ 	page-article.php [NC,L]
+RewriteRule ^product-details/ 	page-product-details.php [NC,L]
+RewriteRule ^upcoming-webinars/ 	page-upcoming-events.php [NC,L]
+RewriteRule ^past-webinars/ 	page-past-events.php [NC,L]
+RewriteRule ^webinar-details/ 	page-event-details.php [NC,L]
+RewriteRule ^contact-us/ 	page-contact.php [NC,L]
+RewriteRule ^services/ 	page-services.php [NC,L]
+RewriteRule ^advertise/ page-advertise.php [NC,L]
