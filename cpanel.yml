@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ACCOUNT/cybersecurity.kryptocent.com/
+    - /bin/cp -u -r * $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
